@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 
 RUN pip install requests
 RUN pip install pymongo
+RUN pip install pytz
 
 COPY . ./
 
